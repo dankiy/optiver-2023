@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# project related
+data
+models
+.vscode
+kaggle.json
+notebooks
+mlruns
