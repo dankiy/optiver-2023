@@ -1,4 +1,4 @@
-# optiver-2024
+# optiver-2023
 
 This solution earned a bronze medal in the competition **"Optiver - Trading at the Close."** This is a clean refactored version for demonstration purposes.
 
