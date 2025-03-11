@@ -1,6 +1,6 @@
 # optiver-2024
 
-This solution earned a bronze medal in the competition **"Optiver - Trading at the Close."**
+This solution earned a bronze medal in the competition **"Optiver - Trading at the Close."** This is a clean refactored version for demonstration purposes.
 
 ![Certificate](imgs/Danil_Kulminskii_Optiver_Trading_at_the_Close.png)
 
