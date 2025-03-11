@@ -1,0 +1,7 @@
+{
+    "url": "https://www.kaggle.com/competitions/optiver-trading-at-the-close/data",
+    "train_path": "data/optiver-trading-at-the-close/train.csv",
+    "num_folds": 5,
+    "folds_gap": 5,
+    "split_day": 435
+}

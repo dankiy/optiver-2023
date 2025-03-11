@@ -1,0 +1,6 @@
+{
+    "test_root": "data/optiver-trading-at-the-close/example_test_files",
+    "tail_size": 21,
+    "clip_min": -64,
+    "clip_max": 64
+}

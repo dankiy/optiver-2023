@@ -1,0 +1,26 @@
+{
+    "lgb_params_base": {
+        "objective": "mae",
+        "n_estimators": 1000,
+        "learning_rate": 0.01,
+        "n_jobs": 4,
+        "device": "gpu",
+        "verbosity": -1,
+        "importance_type": "gain"
+    },
+    "lgb_params_tune": {
+        "num_leaves": {"kwargs": {"low": 150, "high": 400}, "type": "int"},
+        "subsample": {"kwargs": {"low": 0.4, "high": 1}, "type": "float"},
+        "subsample_freq": {"kwargs": {"low": 1, "high": 7}, "type": "int"},
+        "colsample_bytree": {"kwargs": {"low": 0.4, "high": 1}, "type": "float"},
+        "max_depth": {"kwargs": {"low": 4, "high": 20}, "type": "int"},
+        "reg_alpha": {"kwargs": {"low": 0.01, "high": 10, "log": true}, "type": "float"},
+        "reg_lambda": {"kwargs": {"low": 0.01, "high": 10, "log": true}, "type": "float"}
+    },
+    "pruner_params": {
+        "n_warmup_steps": 10,
+        "interval_steps": 10,
+        "n_min_trials": 3
+    },
+    "n_trials": 300
+}
